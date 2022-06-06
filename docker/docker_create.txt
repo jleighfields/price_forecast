@@ -1,0 +1,47 @@
+##############################################
+# set up
+##############################################
+
+# docker permission denied
+# https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+
+##############################################
+# build image
+##############################################
+
+# pytorch container
+docker build -t price_forecast:latest -f docker/Dockerfile .
+
+##############################################
+# check builds
+##############################################
+# list images
+docker image ls
+
+# remove image
+docker rmi <IMAGE ID>
+
+# note there is an issue with docker
+# https://github.com/NVIDIA/nvidia-docker/issues/1447#issuecomment-760189260
+# the fix was:
+# sudo kernelstub -a "systemd.unified_cgroup_hierarchy=0"
+# sudo update-initramfs -c -k all
+# reboot
+
+
+##############################################
+# run container
+##############################################
+
+
+# pytorch
+docker run -it -p 8888:8888 --net=host --gpus all --shm-size=2gb -v $HOME/Documents/price_forecast:/workspace price_forecast:latest
+
+
+
+
+
