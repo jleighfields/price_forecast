@@ -28,16 +28,8 @@ base_url = 'https://docs.misoenergy.org/marketreports/'
 load_file = '_rf_al.xls'
 generation_file = '_sr_gfm.xlsx'
 price_file = '_rt_pr.xls'
-
-# list of days to query
-start = datetime.datetime(2020, 1, 1)
-end = datetime.datetime(2022, 6, 1)
-days = pd.date_range(start, end)
-
-# get YYYYMMDD string from date
-days_str = [str(d).split(' ')[0].replace('-','') for d in days]
-
-
+    
+    
 ###############################################################
 # create database, tables, indexes
 ###############################################################
@@ -96,7 +88,46 @@ def create_database():
         
     return engine
 
+
+###############################################################
+# define function to get a list of days for api calls
+###############################################################
+
+def get_recent_days(
+    engine: sqlalchemy.engine.base.Engine, 
+    offset_days: int=1
+):
     
+    # get start and end days
+    start = datetime.datetime(2020, 1, 2)
+    end = datetime.datetime.now().date()-pd.DateOffset(days=offset_days)
+    days = pd.date_range(start, end)
+    
+    with engine.connect() as conn:
+
+        join_txt='''
+        SELECT 
+            g.dttm as dttm
+        FROM GENERATION as g
+        INNER JOIN
+        LOAD as l
+        ON g.dttm = l.dttm
+        INNER JOIN
+        PRICE as p
+        ON g.dttm = p.dttm
+        '''
+
+        res = pd.read_sql(join_txt, engine)
+    
+    if res.shape[0] > 0:    
+        res.dttm = pd.to_datetime(res.dttm)
+    
+        # get days not in database
+        days = np.setdiff1d(days, res.dttm)
+    
+    return pd.to_datetime(days)
+
+
 ###############################################################
 # functions to upsert data
 ###############################################################
@@ -170,8 +201,8 @@ def upsert_prices(
 
 def get_load_data(
     days_idx: int, 
+    days_str: List[str], 
     base_url: str = base_url, 
-    days_str: List[str] = days_str, 
     file: str = load_file,
 ):
     # build url and fetch data
@@ -205,8 +236,8 @@ def get_load_data(
 
 def get_generation_data(
     days_idx: int, 
+    days_str: List[str], 
     base_url: str = base_url, 
-    days_str: List[str] = days_str, 
     file: str = generation_file,
 ):
     # build url and fetch data
@@ -251,8 +282,8 @@ def get_generation_data(
 
 def get_price_data(
     days_idx: int, 
+    days_str: List[str], 
     base_url: str = base_url, 
-    days_str: List[str] = days_str, 
     file: str = price_file,
 ):
     # build url and fetch data
@@ -283,25 +314,31 @@ def get_price_data(
 
 
 def main():
-    
+
     engine = create_database()
+    
+    # list of days to query
+    days = get_recent_days(engine)
+
+    # get YYYYMMDD string from date
+    days_str = [str(d).split(' ')[0].replace('-','') for d in days]
     
     for i in range(len(days_str)):
         print('\n_____________________________')
         print(f'working on day: {days_str[i]}')
 
         print('\t-getting load...')
-        load_data = get_load_data(i)
+        load_data = get_load_data(i, days_str)
         upsert_load(load_data, engine)
         print(f'\t\tload_data shape: {load_data.shape}')
 
         print('\t-getting generation...')
-        generation_data = get_generation_data(i)
+        generation_data = get_generation_data(i, days_str)
         upsert_generation(generation_data, engine)
         print(f'\t\tgeneration_data shape: {generation_data.shape}')
 
         print('\t-getting prices...')
-        price_data = get_price_data(i)
+        price_data = get_price_data(i, days_str)
         upsert_prices(price_data, engine)
         print(f'\t\tprice_data shape: {price_data.shape}')
 
