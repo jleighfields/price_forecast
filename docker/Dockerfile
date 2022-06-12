@@ -6,7 +6,7 @@ FROM pytorch/pytorch:latest
 #RUN apt install curl
 
 RUN python3 -m pip install --upgrade pip
-RUN pip install mlflow[extras]
+RUN pip install mlflow[extras] mlflow-torchserve
 RUN pip install torch torchvision torchaudio pandas seaborn matplotlib jupyter jupyterlab 
 RUN pip install SQLAlchemy xlrd openpyxl
 RUN pip install requests flask fastapi

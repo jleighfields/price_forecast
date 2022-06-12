@@ -39,7 +39,7 @@ docker rmi <IMAGE ID>
 
 
 # pytorch
-docker run -it -p 8888:8888 --net=host --gpus all --shm-size=2gb -v $HOME/Documents/price_forecast:/workspace price_forecast:latest
+docker run -it -p 8888:8888 -p 8080:8080 -p 8081:8081 -p 8082:8082 --net=host --gpus all --shm-size=2gb -v $HOME/Documents/price_forecast:/workspace price_forecast:latest
 
 
 
