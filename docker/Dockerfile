@@ -2,8 +2,9 @@
 #FROM tensorflow/tensorflow:2.9.0rc1-gpu-jupyter
 FROM pytorch/pytorch:latest
 
-#RUN apt update
-#RUN apt install curl
+RUN apt-get update
+RUN apt-get install -y curl
+RUN apt-get install --no-install-recommends -y openjdk-11-jre-headless
 
 RUN python3 -m pip install --upgrade pip
 RUN pip install mlflow[extras] mlflow-torchserve
