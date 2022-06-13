@@ -1,4 +1,4 @@
 artifact_location: file:///workspace/mlruns/0
 experiment_id: '0'
 lifecycle_stage: active
-name: Default
+name: pytorch_cnn_miso_price
