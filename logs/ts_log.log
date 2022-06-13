@@ -22015,3 +22015,350 @@ ModuleNotFoundError: No module named 'nvgpu'
     import nvgpu
 ModuleNotFoundError: No module named 'nvgpu'
 
+2022-06-13T20:45:33,723 [ERROR] Thread-39 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:45:33,723 [ERROR] Thread-39 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:46:33,725 [ERROR] Thread-40 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:46:33,725 [ERROR] Thread-40 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:47:33,722 [ERROR] Thread-41 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:47:33,722 [ERROR] Thread-41 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:48:33,724 [ERROR] Thread-42 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:48:33,724 [ERROR] Thread-42 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:49:33,722 [ERROR] Thread-43 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:49:33,722 [ERROR] Thread-43 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:50:33,724 [ERROR] Thread-44 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:50:33,724 [ERROR] Thread-44 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T21:59:48,677 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-06-13T21:59:48,677 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-06-13T21:59:48,717 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-06-13T21:59:48,717 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-06-13T21:59:48,864 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.6.0
+TS Home: /opt/conda/lib/python3.8/site-packages
+Current directory: /workspace
+Temp directory: /tmp
+Number of GPUs: 1
+Number of CPUs: 48
+Max heap size: 20088 M
+Python executable: /opt/conda/bin/python3
+Config file: logs/config/20220613205041977-shutdown.cfg
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /workspace/models
+Initial Models: miso_price=pytorch_cnn.mar
+Log dir: /workspace/logs
+Metrics dir: /workspace/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /workspace/models
+Model config: N/A
+2022-06-13T21:59:48,864 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.6.0
+TS Home: /opt/conda/lib/python3.8/site-packages
+Current directory: /workspace
+Temp directory: /tmp
+Number of GPUs: 1
+Number of CPUs: 48
+Max heap size: 20088 M
+Python executable: /opt/conda/bin/python3
+Config file: logs/config/20220613205041977-shutdown.cfg
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /workspace/models
+Initial Models: miso_price=pytorch_cnn.mar
+Log dir: /workspace/logs
+Metrics dir: /workspace/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /workspace/models
+Model config: N/A
+2022-06-13T21:59:48,874 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Started restoring models from snapshot {
+  "name": "20220613205041977-shutdown.cfg",
+  "modelCount": 1,
+  "created": 1655153441977,
+  "models": {
+    "miso_price": {
+      "1.0": {
+        "defaultVersion": true,
+        "marName": "pytorch_cnn.mar",
+        "minWorkers": 1,
+        "maxWorkers": 1,
+        "batchSize": 1,
+        "maxBatchDelay": 100,
+        "responseTimeout": 120
+      }
+    }
+  }
+}
+2022-06-13T21:59:48,874 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Started restoring models from snapshot {
+  "name": "20220613205041977-shutdown.cfg",
+  "modelCount": 1,
+  "created": 1655153441977,
+  "models": {
+    "miso_price": {
+      "1.0": {
+        "defaultVersion": true,
+        "marName": "pytorch_cnn.mar",
+        "minWorkers": 1,
+        "maxWorkers": 1,
+        "batchSize": 1,
+        "maxBatchDelay": 100,
+        "responseTimeout": 120
+      }
+    }
+  }
+}
+2022-06-13T21:59:48,880 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Validating snapshot 20220613205041977-shutdown.cfg
+2022-06-13T21:59:48,880 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Validating snapshot 20220613205041977-shutdown.cfg
+2022-06-13T21:59:48,880 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Snapshot 20220613205041977-shutdown.cfg validated successfully
+2022-06-13T21:59:48,880 [INFO ] main org.pytorch.serve.snapshot.SnapshotManager - Snapshot 20220613205041977-shutdown.cfg validated successfully
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model miso_price
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model miso_price
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model miso_price
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model miso_price
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model miso_price
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model miso_price
+2022-06-13T21:59:48,973 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model miso_price loaded.
+2022-06-13T21:59:48,973 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model miso_price loaded.
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: miso_price, count: 1
+2022-06-13T21:59:48,973 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: miso_price, count: 1
+2022-06-13T21:59:48,980 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-06-13T21:59:48,980 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/opt/conda/bin/python3, /opt/conda/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-06-13T21:59:48,980 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-06-13T21:59:48,980 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/opt/conda/bin/python3, /opt/conda/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-06-13T21:59:49,025 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-06-13T21:59:49,025 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-06-13T21:59:49,026 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-06-13T21:59:49,026 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-06-13T21:59:49,027 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-06-13T21:59:49,027 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-06-13T21:59:49,027 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-06-13T21:59:49,027 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-06-13T21:59:49,027 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-06-13T21:59:49,027 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-06-13T21:59:49,158 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-06-13T21:59:49,158 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-06-13T21:59:49,202 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T21:59:49,202 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T21:59:49,436 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2022-06-13T21:59:49,437 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - [PID]5577
+2022-06-13T21:59:49,437 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - Torch worker started.
+2022-06-13T21:59:49,438 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - Python runtime: 3.8.12
+2022-06-13T21:59:49,438 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-miso_price_1.0 State change null -> WORKER_STARTED
+2022-06-13T21:59:49,438 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-miso_price_1.0 State change null -> WORKER_STARTED
+2022-06-13T21:59:49,443 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-06-13T21:59:49,443 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2022-06-13T21:59:49,452 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2022-06-13T21:59:49,454 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655157589454
+2022-06-13T21:59:49,454 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655157589454
+2022-06-13T21:59:49,486 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - model_name: miso_price, batchSize: 1
+2022-06-13T21:59:51,693 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2207
+2022-06-13T21:59:51,693 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2207
+2022-06-13T21:59:51,694 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-miso_price_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-13T21:59:51,694 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-miso_price_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2022-06-13T21:59:51,694 [INFO ] W-9000-miso_price_1.0 TS_METRICS - W-9000-miso_price_1.0.ms:2717|#Level:Host|#hostname:pop-os,timestamp:1655157591
+2022-06-13T21:59:51,695 [INFO ] W-9000-miso_price_1.0 TS_METRICS - WorkerThreadTime.ms:34|#Level:Host|#hostname:pop-os,timestamp:1655157591
+2022-06-13T21:59:53,885 [INFO ] pool-2-thread-2 ACCESS_LOG - /127.0.0.1:33354 "GET /ping HTTP/1.1" 200 6
+2022-06-13T21:59:53,886 [INFO ] pool-2-thread-2 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:pop-os,timestamp:1655157593
+2022-06-13T21:59:55,240 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655157595240
+2022-06-13T21:59:55,240 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Flushing req. to backend at: 1655157595240
+2022-06-13T21:59:55,242 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - Backend received inference at: 1655157595
+2022-06-13T21:59:55,295 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - {'hist_future': tensor([[[-1.0270e+00, -9.5482e-01, -8.2205e-01, -6.7748e-01, -5.0149e-01,
+2022-06-13T21:59:55,295 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 54
+2022-06-13T21:59:55,295 [INFO ] W-9000-miso_price_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 54
+2022-06-13T21:59:55,295 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -3.3373e-01, -1.9618e-01,  1.0795e-01,  3.6476e-01,  6.0662e-01,
+2022-06-13T21:59:55,296 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            6.3809e-01,  9.1779e-01,  9.7941e-01,  1.0791e+00,  1.1554e+00,
+2022-06-13T21:59:55,296 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.2018e+00,  1.2105e+00,  1.1997e+00,  1.1452e+00,  1.2111e+00,
+2022-06-13T21:59:55,296 [INFO ] W-9000-miso_price_1.0 ACCESS_LOG - /127.0.0.1:33356 "POST /predictions/miso_price HTTP/1.1" 200 74
+2022-06-13T21:59:55,296 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.3402e+00,  1.4519e+00,  1.5148e+00,  1.4987e+00,  1.4291e+00,
+2022-06-13T21:59:55,296 [INFO ] W-9000-miso_price_1.0 TS_METRICS - Requests2XX.Count:1|#Level:Host|#hostname:pop-os,timestamp:1655157593
+2022-06-13T21:59:55,296 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.3278e+00,  1.4837e+00,  1.5148e+00,  1.5343e+00,  1.5457e+00,
+2022-06-13T21:59:55,297 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.job.Job - Waiting time ns: 219733, Backend time ns: 56750491
+2022-06-13T21:59:55,297 [DEBUG] W-9000-miso_price_1.0 org.pytorch.serve.job.Job - Waiting time ns: 219733, Backend time ns: 56750491
+2022-06-13T21:59:55,297 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.5486e+00,  1.6503e+00,  1.7333e+00,  1.8572e+00,  1.8105e+00,
+2022-06-13T21:59:55,297 [INFO ] W-9000-miso_price_1.0 TS_METRICS - QueueTime.ms:0|#Level:Host|#hostname:pop-os,timestamp:1655157595
+2022-06-13T21:59:55,297 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.8326e+00,  1.8042e+00,  1.7582e+00,  1.7612e+00,  1.7848e+00,
+2022-06-13T21:59:55,297 [INFO ] W-9000-miso_price_1.0 TS_METRICS - WorkerThreadTime.ms:3|#Level:Host|#hostname:pop-os,timestamp:1655157595
+2022-06-13T21:59:55,297 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.7763e+00,  1.7939e+00,  1.7974e+00,  1.7830e+00,  1.7532e+00,
+2022-06-13T21:59:55,297 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.7200e+00,  1.5688e+00,  1.3435e+00],
+2022-06-13T21:59:55,298 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -          [-6.3491e-01, -6.3491e-01, -6.3491e-01, -6.3491e-01, -6.3491e-01,
+2022-06-13T21:59:55,298 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -6.3342e-01, -6.3342e-01, -6.3342e-01, -6.3342e-01, -3.3684e-01,
+2022-06-13T21:59:55,298 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            1.7526e+00,  1.9806e+00,  2.3413e+00,  2.6752e+00,  3.2534e+00,
+2022-06-13T21:59:55,298 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            2.7333e+00,  2.0179e+00,  2.2295e+00,  1.7571e+00,  8.9121e-01,
+2022-06-13T21:59:55,298 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            2.0842e-02, -5.8126e-01, -6.2895e-01, -6.2895e-01, -6.2895e-01,
+2022-06-13T21:59:55,299 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -6.2895e-01, -6.2895e-01, -6.2895e-01, -6.2895e-01, -6.3044e-01,
+2022-06-13T21:59:55,299 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -6.3044e-01, -6.2895e-01, -6.3044e-01, -6.0212e-01, -4.1881e-01,
+2022-06-13T21:59:55,299 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -1.9675e-01, -1.2670e-01, -8.9653e-03,  1.8180e-01,  3.5915e-01,
+2022-06-13T21:59:55,299 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            4.9477e-01,  5.8717e-01,  1.6392e-01, -1.5651e-01, -4.1136e-01,
+2022-06-13T21:59:55,299 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -5.9765e-01, -6.2895e-01, -6.2895e-01],
+2022-06-13T21:59:55,300 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -          [-2.3118e-03, -2.7403e-01, -4.0503e-01, -5.2982e-01, -5.9300e-01,
+2022-06-13T21:59:55,300 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -5.8472e-01, -4.5984e-01, -1.3064e-01,  4.0384e-01,  7.9444e-01,
+2022-06-13T21:59:55,300 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            7.8162e-01,  7.2090e-01,  6.8023e-01,  4.9206e-01,  4.0638e-01,
+2022-06-13T21:59:55,300 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            3.8628e-01,  3.5349e-01,  3.5859e-01,  4.1832e-01,  3.5319e-01,
+2022-06-13T21:59:55,300 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            4.4424e-01,  4.8472e-01,  3.9983e-01,  8.0846e-02, -1.6794e-01,
+2022-06-13T21:59:55,301 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -4.1147e-01, -5.6518e-01, -7.0666e-01, -7.6895e-01, -7.8411e-01,
+2022-06-13T21:59:55,301 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           -6.5384e-01, -3.2534e-01,  1.9219e-01,  5.4847e-01,  6.5035e-01,
+2022-06-13T21:59:55,301 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            6.9561e-01,  7.9125e-01,  7.6230e-01,  6.9737e-01,  6.8422e-01,
+2022-06-13T21:59:55,302 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            6.6024e-01,  6.0093e-01,  6.1529e-01,  6.1647e-01,  6.0478e-01,
+2022-06-13T21:59:55,302 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            6.4296e-01,  5.7673e-01,  3.3269e-01]]], dtype=torch.float64), 'hist': tensor([[[ 56.5000, 111.3800,  65.1700,  51.0400,  44.9500,  68.0300,  41.1600,
+2022-06-13T21:59:55,302 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            42.5400,  13.8600,  29.0500,  21.0200,  -2.3900,   6.0800,  23.2500,
+2022-06-13T21:59:55,302 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            35.4200,  29.9400,  22.4900,  23.8900,  21.5800,  38.9900,  39.8700,
+2022-06-13T21:59:55,302 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -            37.4400,  15.7100,  23.2500]]], dtype=torch.float64), 'tabular': tensor([[[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+2022-06-13T21:59:55,302 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1.,
+2022-06-13T21:59:55,303 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0.,
+2022-06-13T21:59:55,303 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+2022-06-13T21:59:55,303 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG -           0., 0., 0., 0., 1., 0.]]], dtype=torch.float64)}
+2022-06-13T21:59:55,303 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - output
+2022-06-13T21:59:55,303 [INFO ] W-9000-miso_price_1.0-stdout MODEL_LOG - [[11.482740698582097, 9.433558322509805, 6.357670718767742, 4.652072424362834, 5.373981184366461, 10.13755370668131, 5.498537501139509, -1.0351698889924719, 5.417987776815796, 7.142253999295891, 14.698423475187953, 22.68197515918935, 23.50863570268838, 16.926248280318205, 16.587138777594447, 17.460261308536353, 22.252084297007105, 27.4442771372184, 29.667714488103567, 30.327531882724816, 23.904924808893337, 15.5746969646517, 7.75750663936942, 10.260269012567438]]
+2022-06-13T21:59:55,303 [INFO ] W-9000-miso_price_1.0-stdout MODEL_METRICS - PredictionTime.Milliseconds:52.43|#ModelName:miso_price,Level:Model|#hostname:pop-os,requestID:a01a2767-5607-4fff-953f-e3e43a7bb09e,timestamp:1655157595
+2022-06-13T22:00:49,199 [ERROR] Thread-2 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T22:00:49,199 [ERROR] Thread-2 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
