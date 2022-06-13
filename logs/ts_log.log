@@ -21889,3 +21889,129 @@ ModuleNotFoundError: No module named 'nvgpu'
     import nvgpu
 ModuleNotFoundError: No module named 'nvgpu'
 
+2022-06-13T20:38:33,723 [ERROR] Thread-32 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:38:33,723 [ERROR] Thread-32 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:39:33,722 [ERROR] Thread-33 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:39:33,722 [ERROR] Thread-33 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:40:33,723 [ERROR] Thread-34 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:40:33,723 [ERROR] Thread-34 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:41:33,725 [ERROR] Thread-35 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:41:33,725 [ERROR] Thread-35 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:42:33,724 [ERROR] Thread-36 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:42:33,724 [ERROR] Thread-36 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:43:33,723 [ERROR] Thread-37 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:43:33,723 [ERROR] Thread-37 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:44:33,723 [ERROR] Thread-38 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2022-06-13T20:44:33,723 [ERROR] Thread-38 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "ts/metrics/metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 91, in collect_all
+    value(num_of_gpu)
+  File "/opt/conda/lib/python3.8/site-packages/ts/metrics/system_metrics.py", line 61, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
