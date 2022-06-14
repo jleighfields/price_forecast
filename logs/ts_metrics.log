@@ -1,7 +1,0 @@
-2022-06-14T21:03:55,028 - W-9000-miso_price_1.0.ms:2716|#Level:Host|#hostname:pop-os,timestamp:1655240635
-2022-06-14T21:03:55,030 - WorkerThreadTime.ms:25|#Level:Host|#hostname:pop-os,timestamp:1655240635
-2022-06-14T21:03:57,447 - Requests2XX.Count:1|#Level:Host|#hostname:pop-os,timestamp:1655240637
-2022-06-14T21:04:03,011 - Requests2XX.Count:1|#Level:Host|#hostname:pop-os,timestamp:1655240637
-2022-06-14T21:04:03,012 - QueueTime.ms:0|#Level:Host|#hostname:pop-os,timestamp:1655240643
-2022-06-14T21:04:03,012 - WorkerThreadTime.ms:3|#Level:Host|#hostname:pop-os,timestamp:1655240643
-2022-06-14T21:41:56,105 - Requests2XX.Count:1|#Level:Host|#hostname:pop-os,timestamp:1655240637
