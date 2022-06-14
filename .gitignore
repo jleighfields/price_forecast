@@ -1,4 +1,6 @@
 *.ipynb_checkpoints
-*/logs/*
+*logs/
 *.trash
 *.html
+*mlruns/
+*.log

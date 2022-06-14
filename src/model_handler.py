@@ -59,8 +59,7 @@ class ModelHandler(BaseHandler):
         """
         # Take the input data and make it inference ready
         # print(post_data[0]['post_data'])
-        preprocessed_data = json.loads(post_data[0]['post_data']) # returns string
-        preprocessed_data = json.loads(preprocessed_data) # returns dict
+        preprocessed_data = json.loads(post_data[0]['post_data']) # returns dict
         # print(preprocessed_data)
 
         for k in preprocessed_data.keys():

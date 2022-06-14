@@ -319,30 +319,36 @@ def main():
     
     # list of days to query
     days = get_recent_days(engine)
-
-    # get YYYYMMDD string from date
-    days_str = [str(d).split(' ')[0].replace('-','') for d in days]
     
-    for i in range(len(days_str)):
-        print('\n_____________________________')
-        print(f'working on day: {days_str[i]}')
+    if len(days) > 0:
+        
+        # get YYYYMMDD string from date
+        days_str = [str(d).split(' ')[0].replace('-','') for d in days]
 
-        print('\t-getting load...')
-        load_data = get_load_data(i, days_str)
-        upsert_load(load_data, engine)
-        print(f'\t\tload_data shape: {load_data.shape}')
 
-        print('\t-getting generation...')
-        generation_data = get_generation_data(i, days_str)
-        upsert_generation(generation_data, engine)
-        print(f'\t\tgeneration_data shape: {generation_data.shape}')
+        for i in range(len(days_str)):
+            print('\n_____________________________')
+            print(f'working on day: {days_str[i]}')
 
-        print('\t-getting prices...')
-        price_data = get_price_data(i, days_str)
-        upsert_prices(price_data, engine)
-        print(f'\t\tprice_data shape: {price_data.shape}')
+            print('\t-getting load...')
+            load_data = get_load_data(i, days_str)
+            upsert_load(load_data, engine)
+            print(f'\t\tload_data shape: {load_data.shape}')
 
-        time.sleep(1)
+            print('\t-getting generation...')
+            generation_data = get_generation_data(i, days_str)
+            upsert_generation(generation_data, engine)
+            print(f'\t\tgeneration_data shape: {generation_data.shape}')
+
+            print('\t-getting prices...')
+            price_data = get_price_data(i, days_str)
+            upsert_prices(price_data, engine)
+            print(f'\t\tprice_data shape: {price_data.shape}')
+
+            time.sleep(1)
+            
+    else:
+        print('Database is up to date - no data to gather')
         
 
 

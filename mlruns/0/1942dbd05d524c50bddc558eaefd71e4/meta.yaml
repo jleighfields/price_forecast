@@ -2,7 +2,7 @@ artifact_uri: file:///workspace/mlruns/0/1942dbd05d524c50bddc558eaefd71e4/artifa
 end_time: 1655156799248
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 name: ''
 run_id: 1942dbd05d524c50bddc558eaefd71e4
 run_uuid: 1942dbd05d524c50bddc558eaefd71e4
